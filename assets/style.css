@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+}
+
+.title {
+    color: rgb(185, 185, 185);
+    font-size: 2rem;
+}
+
+.title-2 {
+    color: rgb(185, 185, 185);
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.columns{
+    width: 100vw;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image.is-128x128 {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    
+  }
+
+  .image.is-128x128 img {
+    border: 1px solid rgb(148, 148, 148);
+    padding: 10px;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+  }
+
+  #agente-azul {
+    background-color: rgb(43, 43, 43);
+    height: 100%;
+  }
+
+  #arma-selecionada {
+    background-color: rgb(43, 43, 43);
+    max-width:400px;
+    max-height:400px;
+    /* min-width:200px;
+    min-height:150px;  */
+    width: auto;
+    height: auto;
+    
+  }
+
+  #arma-selecionada img {
+    width: auto;
+    height: auto;
+    max-width:400px;
+    max-height:150px;
+  }
+
+  #agente-vermelho {
+    background-color: rgb(43, 43, 43);
+    height: 100%;
+  }
+
+  .buttons {
+    margin-top: -40px;
+    position: relative;
+    /* background-color: red; */
+    justify-content: center;
+  }
+
+  .button.is-primary{
+    width: 500px;
+    background-color: rgb(184, 55, 72);
+    transition: all .2s ease-in;
+  }
+
+  .button.is-primary:hover{
+    width: 500px;
+    background-color: rgb(61, 61, 61);
+  }
+
+  .button.is-primary:active{
+    width: 500px;
+    background-color: rgb(61, 61, 61);
+  }
+
+  #nome-arma {
+    text-align: center;
+    margin-top: 20px;
+  }
